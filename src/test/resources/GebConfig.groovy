@@ -14,7 +14,7 @@ driver = { new FirefoxDriver() }
 
 environments {
 	
-	// run as “gradle -Dgeb.env=chrome cucumber”
+	// runn as “gradle -Dgeb.env=chrome cucumber”
 	// See: http://code.google.com/p/selenium/wiki/ChromeDriver
 	chrome {
 		driver = { new ChromeDriver() }
