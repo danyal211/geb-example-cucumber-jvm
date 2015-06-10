@@ -10,7 +10,7 @@ import org.openqa.selenium.phantomjs.PhantomJSDriver
 
 // Use firefox as the default
 // See: http://code.google.com/p/selenium/wiki/FirefoxDriver
-driver = { new FirefoxDriver() }
+driver = { new ChromeDriver() }
 
 environments {
 	
