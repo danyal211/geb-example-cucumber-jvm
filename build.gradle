@@ -59,7 +59,8 @@ cucumber {
 	formats = [
 		'pretty', // prints nice format out to the console
 		'html:build/reports/cucumber', // html
-		'junit:build/cucumber.xml' // junit format for integration with CI tool etc
+		// 'junit:build/cucumber.xml' // junit format for integration with CI tool etc
+		'junit:build/cucumber.json'
 	]
 	// src/cucumber/resources is included automatically
 	glueDirs = [
